@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
     
     s.license = { 
 		:type => 'MIT', 
-		:file => 'LICENSE.md'
+		:file => 'LICENSE'
 	}
 
     s.source = {
