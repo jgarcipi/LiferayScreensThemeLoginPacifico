@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="Addloginpacifico_default" customModule="LiferayScreensThemeLoginPacifico" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="250" height="167"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tgo-2n-enG">
+                    <rect key="frame" x="10" y="20" width="74.5" height="19.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yzl-r2-jgT">
+                    <rect key="frame" x="10" y="69.5" width="74.5" height="19.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="jhonly@gmail.com" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eFE-mu-6FZ">
+                    <rect key="frame" x="94.5" y="15" width="145.5" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="****************" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cSH-eE-GbU">
+                    <rect key="frame" x="94.5" y="64.5" width="145.5" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" textContentType="password"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q9G-v6-Th9" customClass="Addloginpacifico_default" customModule="LiferayScreensThemeLoginPacifico" customModuleProvider="target">
+                    <rect key="frame" x="10" y="117" width="230" height="35"/>
+                    <color key="backgroundColor" red="0.27450980390000002" green="0.62352941179999999" blue="0.82352941180000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="19"/>
+                    <state key="normal" title="Ingresar">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="yzl-r2-jgT" firstAttribute="top" secondItem="Tgo-2n-enG" secondAttribute="bottom" constant="30" id="4c7-TY-P0o"/>
+                <constraint firstItem="Q9G-v6-Th9" firstAttribute="trailing" secondItem="cSH-eE-GbU" secondAttribute="trailing" id="Gu0-eA-O15"/>
+                <constraint firstItem="yzl-r2-jgT" firstAttribute="leading" secondItem="Tgo-2n-enG" secondAttribute="leading" id="JUP-SJ-py4"/>
+                <constraint firstItem="Tgo-2n-enG" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="20" id="L2i-tI-i53"/>
+                <constraint firstItem="eFE-mu-6FZ" firstAttribute="top" secondItem="Tgo-2n-enG" secondAttribute="top" constant="-5" id="Psm-QE-Tdg"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="eFE-mu-6FZ" secondAttribute="trailing" constant="10" id="ULh-rX-U8b"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="cSH-eE-GbU" secondAttribute="trailing" constant="10" id="WwD-1j-MJj"/>
+                <constraint firstItem="eFE-mu-6FZ" firstAttribute="leading" secondItem="Tgo-2n-enG" secondAttribute="trailing" constant="10" id="e0s-gf-ULj"/>
+                <constraint firstItem="Q9G-v6-Th9" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="e6T-EP-ULr"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Q9G-v6-Th9" secondAttribute="bottom" constant="15" id="ei2-yv-Dff"/>
+                <constraint firstItem="Q9G-v6-Th9" firstAttribute="leading" secondItem="yzl-r2-jgT" secondAttribute="leading" id="pYq-Y7-hAT"/>
+                <constraint firstItem="Tgo-2n-enG" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="u9K-c6-aoN"/>
+                <constraint firstItem="cSH-eE-GbU" firstAttribute="leading" secondItem="yzl-r2-jgT" secondAttribute="trailing" constant="10" id="w1e-yL-3jJ"/>
+                <constraint firstItem="cSH-eE-GbU" firstAttribute="top" secondItem="yzl-r2-jgT" secondAttribute="top" constant="-5" id="wbb-Fs-zmb"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="btnIngresar" destination="Q9G-v6-Th9" id="Lq7-0t-CuQ"/>
+                <outlet property="lblPassword" destination="cSH-eE-GbU" id="VYx-Qi-UmD"/>
+                <outlet property="lblUserName" destination="eFE-mu-6FZ" id="5FD-M4-ccJ"/>
+            </connections>
+        </view>
+    </objects>
+</document>
