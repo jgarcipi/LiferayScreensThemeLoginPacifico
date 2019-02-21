@@ -9,6 +9,15 @@
 -->
 <plist version="1.0">
     <dict>
-    
+        <key>server</key>
+        <string>http://192.168.173.1:8081</string>
+        <key>version</key>
+        <integer>70</integer>
+        <key>companyId</key>
+        <real>20099</real>
+        <key>groupId</key>
+        <real>20126</real>
+        <key>New item</key>
+        <string></string>
     </dict>
 </plist>

@@ -13,7 +13,7 @@ public class AddLoginInteractor: Interactor, LRCallback {
     
     
     
-    
+    public let folderId: Int64
     public let userName: String?
     public let password : String?
     
@@ -25,7 +25,8 @@ public class AddLoginInteractor: Interactor, LRCallback {
     public var resultLoginInfo: [String:AnyObject]?
     
     //MARK: Initializer
-    public init(screenlet: BaseScreenlet, userName: String, password: String) {
+    public init(screenlet: BaseScreenlet, folderId: Int64, userName: String, password: String) {
+        self.folderId = folderId
         self.userName = userName
         self.password = password
         super.init(screenlet: screenlet)
@@ -49,6 +50,7 @@ public class AddLoginInteractor: Interactor, LRCallback {
         
         do {
             try service.addEntry(withGroupId: LiferayServerContext.groupId,
+                                            folderId: folderId,
                                             userName: userName,
                                             password: password,
                                             description: "Added from Liferay Screens Login",

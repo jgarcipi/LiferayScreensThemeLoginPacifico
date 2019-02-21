@@ -7,9 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		647B8F0B57D9C96CFF4333E7 /* Pods_LiferayScreensThemeLoginPacificoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FBA465B7C17208DF1D039D9 /* Pods_LiferayScreensThemeLoginPacificoTests.framework */; };
 		9A2C54B8221CAB620075C686 /* LiferayScreensThemeLoginPacifico.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A2C54AE221CAB620075C686 /* LiferayScreensThemeLoginPacifico.framework */; };
 		9A2C54BD221CAB620075C686 /* LiferayScreensThemeLoginPacificoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C54BC221CAB620075C686 /* LiferayScreensThemeLoginPacificoTests.swift */; };
 		9A2C54BF221CAB620075C686 /* LiferayScreensThemeLoginPacifico.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A2C54B1221CAB620075C686 /* LiferayScreensThemeLoginPacifico.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A2C54CB221CADFB0075C686 /* Addloginpacifico_default.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A2C54CA221CADFB0075C686 /* Addloginpacifico_default.xib */; };
+		9A2C54CD221CAFDA0075C686 /* AddLoginPacifico_default.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C54CC221CAFDA0075C686 /* AddLoginPacifico_default.swift */; };
+		9A2C54CF221CB2660075C686 /* liferay-server-context.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A2C54CE221CB2660075C686 /* liferay-server-context.plist */; };
+		9A2C54D2221CBA2C0075C686 /* AddLoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C54D1221CBA2C0075C686 /* AddLoginInteractor.swift */; };
+		9A2C54D6221F57990075C686 /* AddLoginPacificoScreenlet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C54D5221F57990075C686 /* AddLoginPacificoScreenlet.swift */; };
+		CBF375DF966335C7182322B3 /* Pods_LiferayScreensThemeLoginPacifico.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70AB592C675D0A8CD9F09B36 /* Pods_LiferayScreensThemeLoginPacifico.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +30,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D8E6DDB728EE54870A4844A /* Pods-LiferayScreensThemeLoginPacificoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiferayScreensThemeLoginPacificoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LiferayScreensThemeLoginPacificoTests/Pods-LiferayScreensThemeLoginPacificoTests.release.xcconfig"; sourceTree = "<group>"; };
+		4C982BF18396036DBF9F4815 /* Pods-LiferayScreensThemeLoginPacifico.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiferayScreensThemeLoginPacifico.release.xcconfig"; path = "Pods/Target Support Files/Pods-LiferayScreensThemeLoginPacifico/Pods-LiferayScreensThemeLoginPacifico.release.xcconfig"; sourceTree = "<group>"; };
+		4FB0481B9C44B0A725DAA860 /* Pods-LiferayScreensThemeLoginPacifico.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiferayScreensThemeLoginPacifico.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LiferayScreensThemeLoginPacifico/Pods-LiferayScreensThemeLoginPacifico.debug.xcconfig"; sourceTree = "<group>"; };
+		70AB592C675D0A8CD9F09B36 /* Pods_LiferayScreensThemeLoginPacifico.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiferayScreensThemeLoginPacifico.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FBA465B7C17208DF1D039D9 /* Pods_LiferayScreensThemeLoginPacificoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiferayScreensThemeLoginPacificoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A2C54AE221CAB620075C686 /* LiferayScreensThemeLoginPacifico.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LiferayScreensThemeLoginPacifico.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A2C54B1221CAB620075C686 /* LiferayScreensThemeLoginPacifico.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiferayScreensThemeLoginPacifico.h; sourceTree = "<group>"; };
 		9A2C54B2221CAB620075C686 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A2C54B7221CAB620075C686 /* LiferayScreensThemeLoginPacificoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiferayScreensThemeLoginPacificoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A2C54BC221CAB620075C686 /* LiferayScreensThemeLoginPacificoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiferayScreensThemeLoginPacificoTests.swift; sourceTree = "<group>"; };
 		9A2C54BE221CAB620075C686 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A2C54CA221CADFB0075C686 /* Addloginpacifico_default.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Addloginpacifico_default.xib; sourceTree = "<group>"; };
+		9A2C54CC221CAFDA0075C686 /* AddLoginPacifico_default.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddLoginPacifico_default.swift; sourceTree = "<group>"; };
+		9A2C54CE221CB2660075C686 /* liferay-server-context.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "liferay-server-context.plist"; sourceTree = "<group>"; };
+		9A2C54D1221CBA2C0075C686 /* AddLoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLoginInteractor.swift; sourceTree = "<group>"; };
+		9A2C54D5221F57990075C686 /* AddLoginPacificoScreenlet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLoginPacificoScreenlet.swift; sourceTree = "<group>"; };
+		D23B9B198D5A9A7586D48F50 /* Pods-LiferayScreensThemeLoginPacificoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiferayScreensThemeLoginPacificoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LiferayScreensThemeLoginPacificoTests/Pods-LiferayScreensThemeLoginPacificoTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBF375DF966335C7182322B3 /* Pods_LiferayScreensThemeLoginPacifico.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +63,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A2C54B8221CAB620075C686 /* LiferayScreensThemeLoginPacifico.framework in Frameworks */,
+				647B8F0B57D9C96CFF4333E7 /* Pods_LiferayScreensThemeLoginPacificoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +76,8 @@
 				9A2C54B0221CAB620075C686 /* LiferayScreensThemeLoginPacifico */,
 				9A2C54BB221CAB620075C686 /* LiferayScreensThemeLoginPacificoTests */,
 				9A2C54AF221CAB620075C686 /* Products */,
+				EDED9E2C402A2DD566B964B9 /* Pods */,
+				B73A1D7E579C0E967A098334 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,8 +93,16 @@
 		9A2C54B0221CAB620075C686 /* LiferayScreensThemeLoginPacifico */ = {
 			isa = PBXGroup;
 			children = (
+				9A2C54D1221CBA2C0075C686 /* AddLoginInteractor.swift */,
+				9A2C54CA221CADFB0075C686 /* Addloginpacifico_default.xib */,
+				9A2C54CC221CAFDA0075C686 /* AddLoginPacifico_default.swift */,
+				9A2C54D5221F57990075C686 /* AddLoginPacificoScreenlet.swift */,
+				9A2C54D4221EFF850075C686 /* Views */,
+				9A2C54D3221EFF6E0075C686 /* Controllers */,
+				9A2C54D0221CBA1C0075C686 /* Interactor */,
 				9A2C54B1221CAB620075C686 /* LiferayScreensThemeLoginPacifico.h */,
 				9A2C54B2221CAB620075C686 /* Info.plist */,
+				9A2C54CE221CB2660075C686 /* liferay-server-context.plist */,
 			);
 			path = LiferayScreensThemeLoginPacifico;
 			sourceTree = "<group>";
@@ -84,6 +114,47 @@
 				9A2C54BE221CAB620075C686 /* Info.plist */,
 			);
 			path = LiferayScreensThemeLoginPacificoTests;
+			sourceTree = "<group>";
+		};
+		9A2C54D0221CBA1C0075C686 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		9A2C54D3221EFF6E0075C686 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9A2C54D4221EFF850075C686 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B73A1D7E579C0E967A098334 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70AB592C675D0A8CD9F09B36 /* Pods_LiferayScreensThemeLoginPacifico.framework */,
+				7FBA465B7C17208DF1D039D9 /* Pods_LiferayScreensThemeLoginPacificoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDED9E2C402A2DD566B964B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4FB0481B9C44B0A725DAA860 /* Pods-LiferayScreensThemeLoginPacifico.debug.xcconfig */,
+				4C982BF18396036DBF9F4815 /* Pods-LiferayScreensThemeLoginPacifico.release.xcconfig */,
+				D23B9B198D5A9A7586D48F50 /* Pods-LiferayScreensThemeLoginPacificoTests.debug.xcconfig */,
+				1D8E6DDB728EE54870A4844A /* Pods-LiferayScreensThemeLoginPacificoTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,10 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A2C54C2221CAB620075C686 /* Build configuration list for PBXNativeTarget "LiferayScreensThemeLoginPacifico" */;
 			buildPhases = (
+				E35B23577BA42E8E800D1264 /* [CP] Check Pods Manifest.lock */,
 				9A2C54A9221CAB620075C686 /* Headers */,
 				9A2C54AA221CAB620075C686 /* Sources */,
 				9A2C54AB221CAB620075C686 /* Frameworks */,
 				9A2C54AC221CAB620075C686 /* Resources */,
+				8B58399069A6506B9ED88D34 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A2C54C5221CAB620075C686 /* Build configuration list for PBXNativeTarget "LiferayScreensThemeLoginPacificoTests" */;
 			buildPhases = (
+				3B40FA072759E465397FB718 /* [CP] Check Pods Manifest.lock */,
 				9A2C54B3221CAB620075C686 /* Sources */,
 				9A2C54B4221CAB620075C686 /* Frameworks */,
 				9A2C54B5221CAB620075C686 /* Resources */,
+				AEEFDB93FC5B16003C1307C2 /* [CP] Embed Pods Frameworks */,
+				A2FA31FA2EAEA3671036E5AB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -148,6 +224,7 @@
 				TargetAttributes = {
 					9A2C54AD221CAB620075C686 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					9A2C54B6221CAB620075C686 = {
 						CreatedOnToolsVersion = 10.1;
@@ -177,6 +254,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A2C54CF221CB2660075C686 /* liferay-server-context.plist in Resources */,
+				9A2C54CB221CADFB0075C686 /* Addloginpacifico_default.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,11 +268,151 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3B40FA072759E465397FB718 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LiferayScreensThemeLoginPacificoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B58399069A6506B9ED88D34 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LiferayScreensThemeLoginPacifico/Pods-LiferayScreensThemeLoginPacifico-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2FA31FA2EAEA3671036E5AB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LiferayScreensThemeLoginPacificoTests/Pods-LiferayScreensThemeLoginPacificoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEEFDB93FC5B16003C1307C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LiferayScreensThemeLoginPacificoTests/Pods-LiferayScreensThemeLoginPacificoTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/AppAuth/AppAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
+				"${BUILT_PRODUCTS_DIR}/Cordova/Cordova.framework",
+				"${BUILT_PRODUCTS_DIR}/DTPickerPresenter/DTPickerPresenter.framework",
+				"${BUILT_PRODUCTS_DIR}/KeychainAccess/KeychainAccess.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Liferay-iOS-SDK/LRMobileSDK.framework",
+				"${BUILT_PRODUCTS_DIR}/LiferayScreens/LiferayScreens.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MDRadialProgress/MDRadialProgress.framework",
+				"${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SMXMLDocument/SMXMLDocument.framework",
+				"${BUILT_PRODUCTS_DIR}/SQLCipher/SQLCipher.framework",
+				"${BUILT_PRODUCTS_DIR}/TNRadioButtonGroup/TNRadioButtonGroup.framework",
+				"${BUILT_PRODUCTS_DIR}/YapDatabase/YapDatabase.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AppAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cordova.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DTPickerPresenter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainAccess.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LRMobileSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LiferayScreens.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDRadialProgress.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SMXMLDocument.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLCipher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TNRadioButtonGroup.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YapDatabase.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LiferayScreensThemeLoginPacificoTests/Pods-LiferayScreensThemeLoginPacificoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E35B23577BA42E8E800D1264 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LiferayScreensThemeLoginPacifico-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9A2C54AA221CAB620075C686 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A2C54D2221CBA2C0075C686 /* AddLoginInteractor.swift in Sources */,
+				9A2C54CD221CAFDA0075C686 /* AddLoginPacifico_default.swift in Sources */,
+				9A2C54D6221F57990075C686 /* AddLoginPacificoScreenlet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +559,9 @@
 		};
 		9A2C54C3221CAB620075C686 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FB0481B9C44B0A725DAA860 /* Pods-LiferayScreensThemeLoginPacifico.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -358,6 +579,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.JJgarcia.LiferayScreensThemeLoginPacifico;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,7 +587,9 @@
 		};
 		9A2C54C4221CAB620075C686 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C982BF18396036DBF9F4815 /* Pods-LiferayScreensThemeLoginPacifico.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -390,7 +614,9 @@
 		};
 		9A2C54C6221CAB620075C686 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D23B9B198D5A9A7586D48F50 /* Pods-LiferayScreensThemeLoginPacificoTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JZW7G9F39X;
 				INFOPLIST_FILE = LiferayScreensThemeLoginPacificoTests/Info.plist;
@@ -408,7 +634,9 @@
 		};
 		9A2C54C7221CAB620075C686 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D8E6DDB728EE54870A4844A /* Pods-LiferayScreensThemeLoginPacificoTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JZW7G9F39X;
 				INFOPLIST_FILE = LiferayScreensThemeLoginPacificoTests/Info.plist;

@@ -14,17 +14,17 @@
 import UIKit
 import LiferayScreens
 
-class Addloginpacifico_default: BaseScreenletView {
+class AddLoginPacifico_default: BaseScreenletView {
     @IBOutlet weak var lblUserName: UITextField!
     @IBOutlet weak var lblPassword: UITextField!
     @IBOutlet weak var btnIngresar: Addloginpacifico_default!
     
 
-	var URL: String? {
+	var userName: String? {
 		return lblUserName?.text
 	}
 
-	var title: String? {
+	var password: String? {
 		return lblPassword?.text
 	}
 
